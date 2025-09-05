@@ -3,60 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool Web Page</title>
+    <title>Feature Landing Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="site-title">My Cool Web Page</h1>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to FeatureLand</h1>
+            <p>Discover amazing features and build stunning projects effortlessly.</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
     </header>
 
-    <section id="about" class="section about">
-        <h2>About Me</h2>
-        <p>I build creative web projects and interactive pages.</p>
-    </section>
-
-    <section id="projects" class="section projects">
-        <h2>Projects</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>Project 1</h3>
-                <p>Cool web app built with HTML, CSS, and JS.</p>
-                <button class="btn">View</button>
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Fast & Lightweight</h3>
+                <p>Optimized performance for smooth user experience.</p>
             </div>
-            <div class="card">
-                <h3>Project 2</h3>
-                <p>Interactive landing page with animations.</p>
-                <button class="btn">View</button>
+            <div class="feature-card">
+                <h3>Responsive Design</h3>
+                <p>Looks perfect on any device, from mobile to desktop.</p>
             </div>
-            <div class="card">
-                <h3>Project 3</h3>
-                <p>Responsive website design project.</p>
-                <button class="btn">View</button>
+            <div class="feature-card">
+                <h3>Interactive Elements</h3>
+                <p>Buttons, cards, forms and animations that engage users.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section contact">
-        <h2>Contact Me</h2>
-        <form class="contact-form">
+    <section class="signup">
+        <h2>Join Us Today</h2>
+        <form class="signup-form">
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Email Address" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit">Sign Up</button>
         </form>
     </section>
 
     <footer class="footer">
-        <p>© 2025 My Cool Web Page. All rights reserved.</p>
+        <p>© 2025 FeatureLand. All rights reserved.</p>
     </footer>
 </body>
 </html>
