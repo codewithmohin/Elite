@@ -1,40 +1,121 @@
 * {
-    padding: 0;
-    margin: 0;
-    color: white;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
+ 
 #navbar {
-    height: 60px;
-    background-color: #131921; 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 20px;
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
 }
 
 #logo {
-    color: #f08804;
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+#logo span {
+  color: #f08804;
 }
 
-a:hover {
-    color: #e64a11;
+#navbar a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
 }
 
-input {
-    padding: 6px;
-    border: none;
-    border-radius: 4px;
-    width: 200px;
+#navbar a:hover {
+  color: #f08804;
+}
+
+#navbar input {
+  padding: 6px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  width: 250px;
+  color: black;
+}
+
+#navbar button {
+  background-color: #f08804;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Content Placeholder */
+#content {
+  padding: 20px;
+  background: #f3f3f3;
+  color: black;
+  min-height: 400px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+}
+
+.footer-panel1 {
+  background-color: #37475a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-panel2 {
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px;
+}
+
+.footer-panel2 ul {
+  list-style-type: none;
+}
+
+.footer-panel2 h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-panel2 a {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-panel2 a:hover {
+  color: #f08804;
+}
+
+.footer-panel3 {
+  background-color: #131a22;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.footer-panel3 #logo {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
 }
